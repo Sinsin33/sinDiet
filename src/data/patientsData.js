@@ -17,19 +17,19 @@ const patientsData = [
     visits: [
       {
         id: 1,
-        date: "۱۴۰۳/۰۸/۱۰",
-        weight: 86,
+        date: 1729296000000,
+        weight: 88,
         height: 182,
-        abdomen: 94,
-        suggestedCalories: 2200,
+        abdomen: 98,
+        suggestedCalories: 2400,
         dietPlan: "رژیم کاهش وزن سطح ۲",
-        leanMassPercent: 78,
-        fatPercent: 22,
+        leanMassPercent: 75,
+        fatPercent: 25,
         notes: "رعایت خوب، کاهش وزن ۱.۲ کیلوگرم نسبت به ماه قبل.",
       },
       {
         id: 2,
-        date: "۱۴۰۳/۰۷/۱۰",
+        date: 1731888000000,
         weight: 87.2,
         height: 182,
         abdomen: 96,
@@ -59,7 +59,7 @@ const patientsData = [
     visits: [
       {
         id: 1,
-        date: "۱۴۰۳/۰۸/۰۸",
+        date: 1729296000000,
         weight: 74.5,
         height: 168,
         abdomen: 83,
@@ -71,7 +71,7 @@ const patientsData = [
       },
       {
         id: 2,
-        date: "۱۴۰۳/۰۷/۰۸",
+        date: 1731888000000,
         weight: 76,
         height: 168,
         abdomen: 86,
@@ -100,7 +100,7 @@ const patientsData = [
     visits: [
       {
         id: 1,
-        date: "۱۴۰۳/۰۸/۱۰",
+        date: 1731888000000,
         weight: 89,
         height: 180,
         abdomen: 98,
@@ -129,7 +129,7 @@ const patientsData = [
     visits: [
       {
         id: 1,
-        date: "۱۴۰۳/۰۸/۰۵",
+        date: 1731888000000,
         weight: 62,
         height: 165,
         abdomen: 76,
@@ -158,7 +158,7 @@ const patientsData = [
     visits: [
       {
         id: 1,
-        date: "۱۴۰۳/۰۸/۰۱",
+        date: 1731888000000,
         weight: 95,
         height: 178,
         abdomen: 102,
@@ -187,7 +187,7 @@ const patientsData = [
     visits: [
       {
         id: 1,
-        date: "۱۴۰۳/۰۷/۲۸",
+        date: 1731888000000,
         weight: 68,
         height: 164,
         abdomen: 78,

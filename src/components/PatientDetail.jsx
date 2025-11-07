@@ -179,7 +179,7 @@ export default function PatientDetail({ patient }) {
             >
               {editedPatient.visits.map((v, i) => (
                 <option key={i} value={i}>
-                  {v.date}
+                  {new Date(v.date).toLocaleDateString("fa-IR")}
                 </option>
               ))}
             </select>
@@ -253,17 +253,52 @@ export default function PatientDetail({ patient }) {
             {editModeVisit ? (
               <input
                 type="number"
-                value={selectedVisit.suggestedCalorie}
+                value={selectedVisit.suggestedCalories}
                 onChange={(e) => {
                   const newVisits = [...editedPatient.visits];
-                  newVisits[selectedVisitIndex].suggestedCalorie =
+                  newVisits[selectedVisitIndex].suggestedCalories =
                     e.target.value;
                   setEditedPatient({ ...editedPatient, visits: newVisits });
                 }}
                 className="border rounded px-2 py-1"
               />
             ) : (
-              selectedVisit.suggestedCalorie
+              selectedVisit.suggestedCalories
+            )}
+          </p>
+          <p>
+            <strong>درصد چربی:</strong>{" "}
+            {editModeVisit ? (
+              <input
+                type="number"
+                value={selectedVisit.fatPercent}
+                onChange={(e) => {
+                  const newVisits = [...editedPatient.visits];
+                  newVisits[selectedVisitIndex].fatPercent = e.target.value;
+                  setEditedPatient({ ...editedPatient, visits: newVisits });
+                }}
+                className="border rounded px-2 py-1"
+              />
+            ) : (
+              selectedVisit.fatPercent
+            )}
+          </p>
+          <p>
+            <strong>درصد عضله:</strong>{" "}
+            {editModeVisit ? (
+              <input
+                type="number"
+                value={selectedVisit.leanMassPercent}
+                onChange={(e) => {
+                  const newVisits = [...editedPatient.visits];
+                  newVisits[selectedVisitIndex].leanMassPercent =
+                    e.target.value;
+                  setEditedPatient({ ...editedPatient, visits: newVisits });
+                }}
+                className="border rounded px-2 py-1"
+              />
+            ) : (
+              selectedVisit.leanMassPercent
             )}
           </p>
         </div>
