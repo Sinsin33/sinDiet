@@ -1,0 +1,398 @@
+{
+  "patients": [
+    {
+      "id": "101",
+      "firstName": "سینا",
+      "lastName": "امیرجانی",
+      "phone": "09125639181",
+      "lastVisit": "امروز",
+      "gender": "مرد",
+      "medicalConditions": [
+        "دیابت نوع ۲",
+        "افزایش چربی خون"
+      ],
+      "foodPreferences": [
+        "گیاه‌خواری نسبی",
+        "صبحانه سبک"
+      ],
+      "foodAllergies": [
+        "تخم‌مرغ"
+      ],
+      "drugsAndSupplements": [
+        "متفورمین 500mg روزی دوبار",
+        "اومگا 3"
+      ],
+      "foodRecord": "صبحانه: نان سبوس‌دار و پنیر، ناهار: مرغ و برنج، شام: سوپ سبزیجات",
+      "generalNote": "بسیار منظم و پیگیر در اجرای رژیم. نیاز به کنترل دقیق‌تر کربوهیدرات‌ها دارد.",
+      "visits": [
+        {
+          "id": 1,
+          "date": 1729296000000,
+          "weight": 88,
+          "height": 182,
+          "abdomen": 98,
+          "suggestedCalories": 2400,
+          "dietPlan": "رژیم کاهش وزن سطح ۲",
+          "leanMassPercent": 75,
+          "fatPercent": 25,
+          "notes": "رعایت خوب، کاهش وزن ۱.۲ کیلوگرم نسبت به ماه قبل."
+        },
+        {
+          "id": 2,
+          "date": 1762627640000,
+          "weight": 87.2,
+          "height": 182,
+          "abdomen": 96,
+          "suggestedCalories": 2300,
+          "dietPlan": "رژیم کاهش وزن سطح ۲",
+          "leanMassPercent": 77,
+          "fatPercent": 23,
+          "notes": "شروع رژیم جدید، احساس خستگی روز سوم گزارش شد."
+        },
+        {
+          "id": 1762795211428,
+          "date": 1762633800000,
+          "weight": 89,
+          "height": 182,
+          "suggestedCalories": 1900,
+          "fatPercent": 22,
+          "leanMassPercent": 73,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "firstName": "غزل",
+      "lastName": "حلبیان",
+      "phone": "09139006470",
+      "lastVisit": "دیروز",
+      "gender": "زن",
+      "medicalConditions": [
+        "هیچی"
+      ],
+      "foodPreferences": [
+        "صبحانه دیرهنگام",
+        "غذاهای کم‌چرب"
+      ],
+      "foodAllergies": [],
+      "drugsAndSupplements": [
+        "ویتامین D3 1000 IU"
+      ],
+      "foodRecord": "صبحانه: اسموتی میوه، ناهار: سالاد و برنج قهوه‌ای، شام: تخم‌مرغ آب‌پز",
+      "generalNote": "پاسخ عالی به تنظیم کالری، اما دچار افت انرژی در عصرها می‌شود.",
+      "visits": [
+        {
+          "id": 1,
+          "date": 1729296000000,
+          "weight": 65,
+          "height": 168,
+          "abdomen": 83,
+          "suggestedCalories": 1619,
+          "dietPlan": "رژیم کنترل قند خون (PCOS)",
+          "leanMassPercent": 74,
+          "fatPercent": 26,
+          "notes": "وضعیت انرژی بهتر از هفته قبل :))))))))))))",
+          "physicalActivityMultiplier": 1.3
+        },
+        {
+          "id": 2,
+          "date": 1729555200000,
+          "weight": 76,
+          "height": 168,
+          "abdomen": 86,
+          "suggestedCalories": 2000,
+          "dietPlan": "رژیم کنترل قند خون (PCOS)",
+          "leanMassPercent": 72,
+          "fatPercent": 28,
+          "notes": "شروع درمان تغذیه‌ای."
+        },
+        {
+          "id": 1762793992901,
+          "date": 1762547400000,
+          "weight": "71",
+          "height": 168,
+          "suggestedCalories": 1602,
+          "fatPercent": 23,
+          "leanMassPercent": 77,
+          "notes": ""
+        },
+        {
+          "id": 1763315995125,
+          "date": 1761597000000,
+          "weight": 50,
+          "height": 165,
+          "suggestedCalories": 1492,
+          "fatPercent": 25,
+          "leanMassPercent": 26,
+          "notes": "",
+          "physicalActivityMultiplier": 1.2
+        },
+        {
+          "id": 1763317224140,
+          "date": 1761337800000,
+          "weight": 85,
+          "height": 175,
+          "suggestedCalories": 1660,
+          "fatPercent": 1,
+          "leanMassPercent": 1,
+          "notes": "",
+          "physicalActivityMultiplier": 1.2
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "firstName": "محمد",
+      "lastName": "زارع",
+      "phone": "09351234567",
+      "lastVisit": "۱۴۰۳/۰۸/۱۰",
+      "gender": "مرد",
+      "medicalConditions": [
+        "چربی خون بالا"
+      ],
+      "foodPreferences": [
+        "رژیم مدیترانه‌ای"
+      ],
+      "foodAllergies": [],
+      "drugsAndSupplements": [
+        "آتورواستاتین 10mg"
+      ],
+      "foodRecord": "صبحانه: نان جو و عسل، ناهار: ماهی، شام: سالاد سبزیجات",
+      "generalNote": "پایبندی مناسب به برنامه غذایی. نیاز به فعالیت بدنی بیشتر دارد.",
+      "visits": [
+        {
+          "id": 1,
+          "date": 1761350400000,
+          "weight": 89,
+          "height": 180,
+          "abdomen": 98,
+          "suggestedCalories": 2400,
+          "dietPlan": "رژیم کاهش چربی خون",
+          "leanMassPercent": 76,
+          "fatPercent": 24,
+          "notes": "بهبود در سطح تری‌گلیسرید مشاهده شد."
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "firstName": "نگار",
+      "lastName": "حسینی",
+      "phone": "09127654321",
+      "lastVisit": "۱۴۰۳/۰۸/۰۵",
+      "gender": "زن",
+      "medicalConditions": [
+        "کم‌خونی فقر آهن"
+      ],
+      "foodPreferences": [
+        "غذاهای گیاهی",
+        "صبحانه کامل"
+      ],
+      "foodAllergies": [
+        "میگو"
+      ],
+      "drugsAndSupplements": [
+        "آهن فروس سولفات 325mg",
+        "ویتامین C"
+      ],
+      "foodRecord": "صبحانه: عدسی، ناهار: خوراک لوبیا، شام: سوپ عدس و نان سبوس‌دار",
+      "generalNote": "بهبود تدریجی سطح هموگلوبین. نیاز به پیگیری مجدد پس از ۳ هفته.",
+      "visits": [
+        {
+          "id": 1,
+          "date": 1731888000000,
+          "weight": 62,
+          "height": 165,
+          "abdomen": 76,
+          "suggestedCalories": 2100,
+          "dietPlan": "رژیم افزایش آهن و انرژی",
+          "leanMassPercent": 73,
+          "fatPercent": 27,
+          "notes": "افزایش انرژی، اشتها بهتر از قبل."
+        },
+        {
+          "id": 1762795329956,
+          "date": 1762720200000,
+          "weight": 59,
+          "height": 180,
+          "suggestedCalories": 1700,
+          "fatPercent": 23,
+          "leanMassPercent": 75,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "firstName": "مهدی",
+      "lastName": "احمدی",
+      "phone": "09301234567",
+      "lastVisit": "۱۴۰۳/۰۸/۰۱",
+      "gender": "زن",
+      "medicalConditions": [
+        "اضافه وزن"
+      ],
+      "foodPreferences": [
+        "غذاهای خانگی",
+        "برنج زیاد"
+      ],
+      "foodAllergies": [],
+      "drugsAndSupplements": [
+        "مولتی‌ویتامین روزانه"
+      ],
+      "foodRecord": "صبحانه: تخم‌مرغ و نان، ناهار: قورمه سبزی، شام: سالاد و مرغ گریل‌شده",
+      "generalNote": "در شروع مسیر کاهش وزن. انگیزه بالا دارد.",
+      "visits": [
+        {
+          "id": 1,
+          "date": 1761177600000,
+          "weight": 95,
+          "height": 178,
+          "abdomen": 102,
+          "suggestedCalories": 2500,
+          "dietPlan": "رژیم کاهش وزن سطح ۱",
+          "leanMassPercent": 74,
+          "fatPercent": 26,
+          "notes": "شروع برنامه، هنوز تغییر وزنی ندارد."
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "firstName": "لیلا",
+      "lastName": "نعمتی",
+      "phone": "09121112233",
+      "lastVisit": "۱۴۰۳/۰۷/۲۸",
+      "gender": "زن",
+      "medicalConditions": [
+        "کم‌کاری تیروئید"
+      ],
+      "foodPreferences": [
+        "غذاهای بدون گلوتن",
+        "سبزیجات زیاد"
+      ],
+      "foodAllergies": [
+        "گلوتن"
+      ],
+      "drugsAndSupplements": [
+        "لووتیروکسین 50mcg"
+      ],
+      "foodRecord": "صبحانه: اسموتی سبز، ناهار: ماهی و سبزیجات بخارپز، شام: سوپ سبزیجات",
+      "generalNote": "پایبندی عالی. کاهش وزن آهسته اما پایدار.",
+      "visits": [
+        {
+          "id": 1,
+          "date": 1761264000000,
+          "weight": 68,
+          "height": 164,
+          "abdomen": 78,
+          "suggestedCalories": 2000,
+          "dietPlan": "رژیم کنترل تیروئید",
+          "leanMassPercent": 75,
+          "fatPercent": 25,
+          "notes": "پیشرفت خوب، انرژی بهتر، سطح TSH در حال بهبود."
+        }
+      ]
+    },
+    {
+      "id": "1762937244755",
+      "firstName": "سارینا",
+      "lastName": "امیرجانی",
+      "phone": "09125002721",
+      "lastVisit": "هنوز ویزیت نشده",
+      "gender": "زن",
+      "medicalConditions": [
+        "هیچی"
+      ],
+      "foodPreferences": [
+        "فست فود"
+      ],
+      "foodAllergies": [
+        "هیچی"
+      ],
+      "drugsAndSupplements": [
+        "هیچی"
+      ],
+      "foodRecord": "صبحانه ناهار شام",
+      "generalNote": "اوکیه",
+      "visits": [
+        {
+          "id": 1762937571667,
+          "date": 1762893000000,
+          "weight": 65,
+          "height": 170,
+          "suggestedCalories": 1900,
+          "fatPercent": 25,
+          "leanMassPercent": 28,
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "1762938651157",
+      "firstName": "اشکان",
+      "lastName": "امیرجانی",
+      "phone": "09120000000",
+      "lastVisit": "هنوز ویزیت نشده",
+      "gender": "زن",
+      "medicalConditions": [
+        "هیچی"
+      ],
+      "foodPreferences": [
+        "هیچی"
+      ],
+      "foodAllergies": [
+        "هیچی"
+      ],
+      "drugsAndSupplements": [
+        "هیییییچ"
+      ],
+      "foodRecord": "هیچچچ",
+      "generalNote": "هیچچچ",
+      "visits": []
+    },
+    {
+      "id": "1762938946044",
+      "firstName": "اصغر",
+      "lastName": "اصغری",
+      "phone": "09100000000",
+      "gender": "مرد",
+      "medicalConditions": [
+        "هیچی"
+      ],
+      "foodPreferences": [
+        "بدون"
+      ],
+      "foodAllergies": [
+        "هیچ"
+      ],
+      "drugsAndSupplements": [
+        "هیچ"
+      ],
+      "foodRecord": "هیچی",
+      "generalNote": "هیچ",
+      "visits": []
+    },
+    {
+      "id": "1763311880932",
+      "firstName": "غضنفز",
+      "lastName": "غضنفری",
+      "phone": "09100000000",
+      "gender": "مرد",
+      "medicalConditions": [],
+      "foodPreferences": [],
+      "foodAllergies": [],
+      "drugsAndSupplements": [],
+      "foodRecord": "",
+      "generalNote": "",
+      "visits": []
+    }
+  ],
+  "Diets": [
+    {
+      "breakfast": "egg",
+      "id": "1e55"
+    }
+  ]
+}
